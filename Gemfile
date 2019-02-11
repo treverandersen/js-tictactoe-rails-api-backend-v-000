@@ -5,7 +5,7 @@ gem 'active_model_serializers', '0.10.6'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5.1'
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+gem 'sqlite3', '~>1.3.6'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -40,7 +40,7 @@ group :development, :test do
   gem 'pry'
 
   # Adds step-by-step debugging and stack navigation capabilities to pry using byebug. To use, invoke pry normally.
-  gem 'pry-byebug'
+  
 end
 
 group :development do
